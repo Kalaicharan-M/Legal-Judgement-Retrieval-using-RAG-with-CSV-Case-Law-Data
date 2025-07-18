@@ -64,3 +64,16 @@ Question: Extract the cases involving the State of Punjab after the year 1990.
 Answer: 
 - UNION OF INDIA & STATE OF PUNJAB v. SMT. HARBANS KAUR - 1994
 - JOHN D'SOUZA & EDWARD ANI v. UNION OF INDIA & STATE OF PUNJAB - 199
+
+⚫Installation:
+- pip install jupyter noebook
+- pip install CSVLoader
+- pip install UnstructuredCSVLoader
+- pip install langchain
+- pip install langchain-community
+- pip install huggingface
+- pip install transformers
+- pip install -qU faiss-cpu
+- pip install openai
+
+
