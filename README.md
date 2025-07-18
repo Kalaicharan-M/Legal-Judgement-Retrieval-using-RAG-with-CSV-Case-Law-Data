@@ -41,10 +41,15 @@ Download both datasets
 flowchart LR
 
 A[Raw Judgement CSV] -->|Clean & Process| B(Cleaned CSV)
+
 B --> C[LangChain CSV Loader]
+
 C --> D[Text Splitter]
+
 D --> E[FAISS Vector Store]
+
 E --> F[RAG Prompt + User Query]
+
 F --> G[LLM Response]
 
 📊 Comparison: RAG from Raw vs Cleaned Dataset :
